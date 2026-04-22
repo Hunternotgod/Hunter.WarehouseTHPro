@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Hunter.WarehouseTHHelper\Hunter.WarehouseTHHelper.csproj">
+      <Project>{a3cfa396-0a25-4518-8142-5e435f453511}</Project>
+      <Name>Hunter.WarehouseTHHelper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Hunter.WarehouseTHModels\Hunter.WarehouseTHModels.csproj">
       <Project>{2c758a97-2fc9-4293-a0cc-3ed40bbff2e2}</Project>
       <Name>Hunter.WarehouseTHModels</Name>

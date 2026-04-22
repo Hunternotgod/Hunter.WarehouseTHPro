@@ -46,16 +46,79 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UserView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserView.Designer.cs">
+      <DependentUpon>UserView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordView.Designer.cs">
+      <DependentUpon>RecordView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlarmView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlarmView.Designer.cs">
+      <DependentUpon>AlarmView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryView.Designer.cs">
+      <DependentUpon>HistoryView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConfigView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigView.Designer.cs">
+      <DependentUpon>ConfigView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrendView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrendView.Designer.cs">
+      <DependentUpon>TrendView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonitorView.Designer.cs">
+      <DependentUpon>MonitorView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UserView.resx">
+      <DependentUpon>UserView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordView.resx">
+      <DependentUpon>RecordView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlarmView.resx">
+      <DependentUpon>AlarmView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryView.resx">
+      <DependentUpon>HistoryView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigView.resx">
+      <DependentUpon>ConfigView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrendView.resx">
+      <DependentUpon>TrendView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorView.resx">
+      <DependentUpon>MonitorView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

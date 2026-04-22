@@ -1,7 +1,7 @@
 <Solution>
-  <Project Path="Hunter.WarehouseTHBLL/Hunter.WarehouseTHBLL.csproj" />
-  <Project Path="Hunter.WarehouseTHDAL/Hunter.WarehouseTHDAL.csproj" />
-  <Project Path="Hunter.WarehouseTHHelper/Hunter.WarehouseTHHelper.csproj" />
-  <Project Path="Hunter.WarehouseTHModels/Hunter.WarehouseTHModels.csproj" />
-  <Project Path="Hunter.WarehouseTHPro/Hunter.WarehouseTHPro.csproj" />
+  <Project Path="Hunter.WarehouseTHBLL/Hunter.WarehouseTHBLL.csproj" Id="f6a956bd-b39a-4f43-bfa9-2febdbd40b89" />
+  <Project Path="Hunter.WarehouseTHDAL/Hunter.WarehouseTHDAL.csproj" Id="f6332696-599f-4f8a-bef8-7cf4e4baf453" />
+  <Project Path="Hunter.WarehouseTHHelper/Hunter.WarehouseTHHelper.csproj" Id="a3cfa396-0a25-4518-8142-5e435f453511" />
+  <Project Path="Hunter.WarehouseTHModels/Hunter.WarehouseTHModels.csproj" Id="2c758a97-2fc9-4293-a0cc-3ed40bbff2e2" />
+  <Project Path="Hunter.WarehouseTHPro/Hunter.WarehouseTHPro.csproj" Id="11ffe85e-6550-4696-a0a7-36986e67f18c" />
 </Solution>
