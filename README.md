@@ -17,10 +17,9 @@
 3. Hunter.WarehouseTHDAL (数据访问层)
 引用了：
 - ✅ Hunter.WarehouseTHModels
-- ⚠️ 缺少 Hunter.WarehouseTHHelper 引用（后续按需添加）
-
-4. Hunter.WarehouseTHModels (数据模型层)
 - ✅ Hunter.WarehouseTHHelper
+4. Hunter.WarehouseTHModels (数据模型层)
+- 无引用（作为底层模型）
 
 5. Hunter.WarehouseTHHelper (辅助工具层)
 - 无引用（作为通用工具）
