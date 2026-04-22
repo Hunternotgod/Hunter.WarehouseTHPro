@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace Hunter.WarehouseTHPro
 {
-    public partial class Form1 : Form
+    public partial class NavPanel : Form
     {
-        public Form1()
+        public NavPanel()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
