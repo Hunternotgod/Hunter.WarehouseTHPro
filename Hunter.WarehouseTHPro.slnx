@@ -1,3 +1,7 @@
 <Solution>
+  <Project Path="Hunter.WarehouseTHBLL/Hunter.WarehouseTHBLL.csproj" />
+  <Project Path="Hunter.WarehouseTHDAL/Hunter.WarehouseTHDAL.csproj" />
+  <Project Path="Hunter.WarehouseTHHelper/Hunter.WarehouseTHHelper.csproj" />
+  <Project Path="Hunter.WarehouseTHModels/Hunter.WarehouseTHModels.csproj" />
   <Project Path="Hunter.WarehouseTHPro/Hunter.WarehouseTHPro.csproj" />
 </Solution>

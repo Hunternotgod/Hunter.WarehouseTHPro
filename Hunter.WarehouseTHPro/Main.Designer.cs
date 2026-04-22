@@ -1,6 +1,6 @@
 ﻿namespace Hunter.WarehouseTHPro
 {
-    partial class NavPanel
+    partial class MainView
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -30,7 +30,7 @@
         {
             this.TopPanel = new System.Windows.Forms.Panel();
             this.BottomPanel = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.NavPanel = new System.Windows.Forms.Panel();
             this.MainPanel = new System.Windows.Forms.Panel();
             this.pic_logo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -59,7 +59,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.TopPanel.SuspendLayout();
             this.BottomPanel.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.NavPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,22 +101,22 @@
             this.BottomPanel.Size = new System.Drawing.Size(1261, 40);
             this.BottomPanel.TabIndex = 1;
             // 
-            // panel1
+            // NavPanel
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.NavPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(50)))), ((int)(((byte)(120)))));
-            this.panel1.Controls.Add(this.pic_user);
-            this.panel1.Controls.Add(this.pic_record);
-            this.panel1.Controls.Add(this.pic_alarm);
-            this.panel1.Controls.Add(this.pic_history);
-            this.panel1.Controls.Add(this.pic_config);
-            this.panel1.Controls.Add(this.pic_trend);
-            this.panel1.Controls.Add(this.pic_monitor);
-            this.panel1.Location = new System.Drawing.Point(6, 87);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(167, 587);
-            this.panel1.TabIndex = 2;
+            this.NavPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(50)))), ((int)(((byte)(120)))));
+            this.NavPanel.Controls.Add(this.pic_user);
+            this.NavPanel.Controls.Add(this.pic_record);
+            this.NavPanel.Controls.Add(this.pic_alarm);
+            this.NavPanel.Controls.Add(this.pic_history);
+            this.NavPanel.Controls.Add(this.pic_config);
+            this.NavPanel.Controls.Add(this.pic_trend);
+            this.NavPanel.Controls.Add(this.pic_monitor);
+            this.NavPanel.Location = new System.Drawing.Point(6, 87);
+            this.NavPanel.Name = "NavPanel";
+            this.NavPanel.Size = new System.Drawing.Size(167, 587);
+            this.NavPanel.TabIndex = 2;
             // 
             // MainPanel
             // 
@@ -472,27 +472,27 @@
             this.label14.Text = "2026年10月9日 00:00:00";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // NavPanel
+            // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(59)))), ((int)(((byte)(138)))));
             this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.MainPanel);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.NavPanel);
             this.Controls.Add(this.BottomPanel);
             this.Controls.Add(this.TopPanel);
             this.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "NavPanel";
+            this.Name = "MainView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "仓储温湿度监控系统";
             this.TopPanel.ResumeLayout(false);
             this.TopPanel.PerformLayout();
             this.BottomPanel.ResumeLayout(false);
             this.BottomPanel.PerformLayout();
-            this.panel1.ResumeLayout(false);
+            this.NavPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).EndInit();
             this.ResumeLayout(false);
 
@@ -502,7 +502,7 @@
 
         private System.Windows.Forms.Panel TopPanel;
         private System.Windows.Forms.Panel BottomPanel;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel NavPanel;
         private System.Windows.Forms.Panel MainPanel;
         private System.Windows.Forms.PictureBox pic_logo;
         private System.Windows.Forms.Label label1;

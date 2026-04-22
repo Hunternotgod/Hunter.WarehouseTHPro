@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Hunter.WarehouseTHPro
 {
-    public partial class NavPanel : Form
+    public partial class MainView : Form
     {
-        public NavPanel()
+        public MainView()
         {
             InitializeComponent();
         }
