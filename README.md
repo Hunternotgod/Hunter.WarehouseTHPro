@@ -20,7 +20,7 @@
 - ⚠️ 缺少 Hunter.WarehouseTHHelper 引用（后续按需添加）
 
 4. Hunter.WarehouseTHModels (数据模型层)
-- 无引用（作为底层模型）
+- ✅ Hunter.WarehouseTHHelper
 
 5. Hunter.WarehouseTHHelper (辅助工具层)
 - 无引用（作为通用工具）
